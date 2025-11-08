@@ -51,6 +51,29 @@ You can access the full cheat sheet [here](./LINUX_COMMAND_CHEAT_SHEET.md) with 
 
 ---
 
+## Usage
+### Viewing
+- Open `LINUX_COMMAND_CHEAT_SHEET.md` in any Markdown viewer (VS Code, GitHub, Obsidian).  
+- Use the Table of Contents for quick navigation.
+
+### Optional: Generate PDF
+If you want an offline PDF version:  
+1. Make sure [Pandoc](https://pandoc.org/installing.html) and TeX Live are installed.  
+2. (Optional) Use the included script:
+```bash
+chmod +x scripts/export_pdf.sh
+./scripts/export_pdf.sh
+```
+3. This generates `cheatsheet.pdf` from `LINUX_COMMAND_CHEAT_SHEET.md`.  
+   You can also directly download `cheatsheet.pdf` from this repo.
+
+**Note:**  
+If you encounter an error like `! LaTeX Error: Unicode character …` while generating the PDF, use:
+`pandoc LINUX_COMMAND_CHEAT_SHEET.md -o cheatsheet.pdf --pdf-engine=xelatex`
+
+
+---
+
 ## Contributing
 We welcome contributions!  
 1. Fork this repo  

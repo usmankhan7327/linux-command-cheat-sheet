@@ -1,0 +1,40 @@
+# -------------------------
+# OS Generated Files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Editor & IDE Files
+# -------------------------
+*.swp
+*.swo
+*.bak
+*.tmp
+.vscode/
+.idea/
+*.code-workspace
+
+# -------------------------
+# Python (if used)
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------
+# Node.js / JavaScript (if used)
+# -------------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# -------------------------
+# Misc / Temp
+# -------------------------
+*.log
+*.aux
+*.out
+*.pdf    # Optional if you want to ignore generated PDFs temporarily
+*.png    # Optional if you want to ignore generated images temporarily
