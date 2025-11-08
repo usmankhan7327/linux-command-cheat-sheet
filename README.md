@@ -1,15 +1,5 @@
-██╗     ██╗███╗   ██╗██╗██╗  ██╗
-██║     ██║████╗  ██║██║╚██╗██╔╝
-██║     ██║██╔██╗ ██║██║ ╚███╔╝ 
-██║     ██║██║╚██╗██║██║ ██╔██╗ 
-███████╗██║██║ ╚████║██║██╔╝ ██╗
-╚══════╝╚═╝╚═╝  ╚═══╝╚═╝╚═╝  ╚═╝
-
-Linux Command Cheat Sheet  
+# 🎨 Linux Command Cheat Sheet 
 For Developers, Sysadmins, Hackers, and CTF Players
-
-# 🎨 Linux Command Cheat Sheet
-*Cyber-Ops Clean | Dark Minimal Banner*
 
 ![Linux Banner](https://img.shields.io/badge/Linux-CheatSheet-blue?style=for-the-badge&logo=linux)
 

@@ -1,5 +1,4 @@
 # 🎨 Linux Command Cheat Sheet
-*Cyber-Ops Clean Header (Dark Minimal Banner)*
 
 A concise, professional Linux command reference for developers, sysadmins, and learners.  
 ✨ *Updated regularly – feel free to fork and star!*
