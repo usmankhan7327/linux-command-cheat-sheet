@@ -230,6 +230,54 @@ A concise, professional Linux command reference for developers, sysadmins, and l
 
 ## Bonus: Quick Web Server
 
-Run a local HTTP server instantly:
+Run a local HTTP server instantly from any directory.
+
+### Python
 ```bash
 python3 -m http.server 8080
+````
+
+Serves the current folder on **[http://localhost:8080](http://localhost:8080)**
+
+### PHP
+
+```bash
+php -S 127.0.0.1:8085
+```
+
+Useful if you're testing `.php` files.
+Visit: **[http://127.0.0.1:8085](http://127.0.0.1:8085)**
+
+### Node.js (via npx)
+
+```bash
+npx http-server -p 8086
+```
+
+Great for quick static site previews.
+Opens at: **[http://localhost:8086](http://localhost:8086)**
+
+---
+
+| Command                       | Port | Best Use                  | Note                            |
+| ----------------------------- | ---- | ------------------------- | ------------------------------- |
+| `python3 -m http.server 8080` | 8080 | HTML/CSS/JS quick testing | Built-in, no setup needed       |
+| `php -S 127.0.0.1:8085`       | 8085 | Local PHP execution       | Still simple, no Apache modules |
+| `npx http-server -p 8086`     | 8086 | Node development setups   | Requires Node/npm installed     |
+
+### Optional: Serve a Specific Folder
+
+```bash
+python3 -m http.server 8080 --directory ./public
+```
+
+```bash
+php -S 127.0.0.1:8085 -t public
+```
+
+### ⚠️ Security Reminder
+
+These are **local development servers**.
+Do **not** expose them directly to the public internet.
+
+
