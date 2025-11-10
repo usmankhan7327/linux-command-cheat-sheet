@@ -1,4 +1,4 @@
-# 🎨 Linux Command Cheat Sheet
+# ⚡ Linux Command Cheat Sheet
 
 A concise, professional Linux command reference for developers, sysadmins, and learners.  
 ✨ *Updated regularly – feel free to fork and star!*
