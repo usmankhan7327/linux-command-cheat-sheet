@@ -257,13 +257,23 @@ npx http-server -p 8086
 Great for quick static site previews.
 Opens at: **[http://localhost:8086](http://localhost:8086)**
 
+### Apache2
+
+```bash
+sudo systemctl start apache2
+```
+
+Starts the Apache web server (default port **80**).
+Place your files in **`/var/www/html/`** and visit: **[http://localhost](http://localhost)**
+
 ---
 
-| Command                       | Port | Best Use                  | Note                            |
-| ----------------------------- | ---- | ------------------------- | ------------------------------- |
-| `python3 -m http.server 8080` | 8080 | HTML/CSS/JS quick testing | Built-in, no setup needed       |
-| `php -S 127.0.0.1:8085`       | 8085 | Local PHP execution       | Still simple, no Apache modules |
-| `npx http-server -p 8086`     | 8086 | Node development setups   | Requires Node/npm installed     |
+| Command                        | Port | Best Use                  | Note                                  |
+| ------------------------------ | ---- | ------------------------- | ------------------------------------- |
+| `python3 -m http.server 8080`  | 8080 | HTML/CSS/JS quick testing | Built-in, no setup needed             |
+| `php -S 127.0.0.1:8085`        | 8085 | Local PHP execution       | Simple, no Apache modules required    |
+| `npx http-server -p 8086`      | 8086 | Node development setups   | Requires Node/npm installed           |
+| `sudo systemctl start apache2` | 80   | Full-featured web hosting | Requires Apache installed and running |
 
 ### Optional: Serve a Specific Folder
 
@@ -279,5 +289,6 @@ php -S 127.0.0.1:8085 -t public
 
 These are **local development servers**.
 Do **not** expose them directly to the public internet.
+
 
 
