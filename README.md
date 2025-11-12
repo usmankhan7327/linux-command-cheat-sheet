@@ -49,6 +49,10 @@ You can access the full cheat sheet [here](./LINUX_COMMAND_CHEAT_SHEET.md) with 
 
 > Click any link to jump directly to the section in `LINUX_COMMAND_CHEAT_SHEET.md`.
 
+- [Linux Terminal Shortcuts Cheat Sheet](./LINUX_TERMINAL_SHORTCUTS_CHEAT_SHEET.md) 🧠 *(New!)*
+
+> 📘 **New Addition:** Check out the [Linux Terminal Shortcuts Cheat Sheet](./LINUX_TERMINAL_SHORTCUTS_CHEAT_SHEET.md) for a quick list of essential **keyboard shortcuts** that boost your terminal productivity.
+
 ---
 
 ## Usage
