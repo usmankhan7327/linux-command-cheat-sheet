@@ -53,6 +53,11 @@ You can access the full cheat sheet [here](./LINUX_COMMAND_CHEAT_SHEET.md) with 
 
 > 📘 **New Addition:** Check out the [Linux Terminal Shortcuts Cheat Sheet](./LINUX_TERMINAL_SHORTCUTS_CHEAT_SHEET.md) for a quick list of essential **keyboard shortcuts** that boost your terminal productivity.
 
+- [Penetration Testing Cheat Sheet](./PENETRATION_TESTING_CHEAT_SHEET.md) 🕵️‍♂️ *(New!)*
+
+> 📘 **New Addition:** Explore the [Penetration Testing Cheat Sheet](./PENETRATION_TESTING_CHEAT_SHEET.md) for a concise collection of essential **recon, enumeration, and host-discovery commands** to speed up your pentesting workflow.
+
+
 ---
 
 ## Usage
