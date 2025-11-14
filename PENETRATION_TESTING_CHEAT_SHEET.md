@@ -4,7 +4,14 @@ A quick, practical, and streamlined cheat sheet for common penetration testing t
 
 ---
 
-## 🔍 **RECON & ENUMERATION**
+## 🔍 Recon and Enumeration
+Explore tools and methods for reconnaissance and enumeration to gather valuable information about your target.
+
+- [🌐 NMAP Commands](#-nmap-commands)
+- [📂 SMB Enumeration](#-smb-enumeration)
+- [🌐 Other Host Discovery Methods](#-other-host-discovery-methods)
+
+---
 
 ### 🌐 **NMAP COMMANDS**
 Nmap is a powerful network-scanning tool used for discovery, auditing, and service identification.
