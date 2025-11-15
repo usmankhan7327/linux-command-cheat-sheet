@@ -57,6 +57,9 @@ You can access the full cheat sheet [here](./LINUX_COMMAND_CHEAT_SHEET.md) with 
 
 > 📘 **New Addition:** Explore the [Penetration Testing Cheat Sheet](./PENETRATION_TESTING_CHEAT_SHEET.md) for a concise collection of essential **recon, enumeration, and host-discovery commands** to speed up your pentesting workflow.
 
+- [Command Reference](./COMMAND_REFERENCE.md) 💻 *(New!)*
+
+> 📘 **New Addition:** Explore the [Command Reference](./COMMAND_REFERENCE.md) for a curated collection of essential **Linux, networking, and security commands** — including `dig`, `iptables`, and more — to simplify troubleshooting, system administration, and pentesting tasks.
 
 ---
 
