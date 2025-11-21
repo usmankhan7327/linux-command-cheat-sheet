@@ -67,7 +67,7 @@ Nmap is a powerful network-scanning tool used for discovery, auditing, and servi
 
 ---
 
-## 🐍 Python Local Web Server
+## 🐍 **Python Local Web Server**
 
 Python local web server command, handy for serving up shells and exploits on an attacking machine.
 
@@ -79,7 +79,7 @@ Python local web server command, handy for serving up shells and exploits on an 
 
 ---
 
-## 🗄️ Mounting File Shares
+## 🗄️ **Mounting File Shares**
 
 How to mount NFS / CIFS, Windows and Linux file shares.
 
