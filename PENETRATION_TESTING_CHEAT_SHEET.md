@@ -17,6 +17,13 @@ Set up a Python local web server for various purposes, including hosting payload
 
 - [Python Local Web Server](#-python-local-web-server)
 
+## :file_folder: Mounting File Shares
+
+Learn how to mount file shares for easy access and interaction.
+
+- [Mounting File Shares](#-mounting-file-shares)
+
+
 ---
 
 ### 🌐 **NMAP COMMANDS**
@@ -69,5 +76,19 @@ Python local web server command, handy for serving up shells and exploits on an 
 | `python -m SimpleHTTPServer 80` | Run a basic HTTP server, great for serving up shells etc. |
 | `python3 -m http.server 80` | Run a basic HTTP server using Python 3. |
 | `python -m SimpleHTTPServer 80 --bind 192.168.1.2` | Bind the server to a specific IP address. |
+
+---
+
+## 🗄️ Mounting File Shares
+
+How to mount NFS / CIFS, Windows and Linux file shares.
+
+| Command | Description |
+|---------|-------------|
+| `mount 192.168.1.1:/vol/share /mnt/nfs` | Mount NFS share to `/mnt/nfs`. |
+| `mount -t cifs -o username=user,password=pass,domain=blah //192.168.1.X/share-name /mnt/cifs` | Mount Windows CIFS / SMB share on Linux at `/mnt/cifs`. |
+| `net use Z: \\win-server\share password /user:domain\janedoe /savecred /p:no` | Mount a Windows share on Windows from the command line. |
+| `apt-get install smb4k -y` | Install smb4k on Kali, useful Linux GUI for browsing SMB shares. |
+| `smbclient -L //192.168.1.X -U username` | List SMB shares available on a Windows machine. |
 
 ---
